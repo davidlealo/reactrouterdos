@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.NavBarStyle {
+  display: flex;
+  justify-content: space-around; 
+  background-color: #FFB900;
+  color: aliceblue;
+  padding: 2%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.NavBarStyle a{
+  text-decoration: none;
+}
+
+.active {
+  color: #00A4EF;
+}
+.inActive {
+  color: #737373;
 }
