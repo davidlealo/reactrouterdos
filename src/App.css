@@ -47,14 +47,17 @@
   font-size: larger;
   font-weight: bolder;
 }
-
-.NavBarStyle a{
-  text-decoration: none;
-}
-
 .active {
   color: #00A4EF;
+  font-weight: 900;
 }
 .inActive {
   color: #737373;
+  text-decoration: none;
 }
+.selectedPokemon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
